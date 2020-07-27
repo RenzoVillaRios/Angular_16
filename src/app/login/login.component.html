@@ -1,0 +1,19 @@
+
+<h3 style="text-align: center;font-family: sans-serif;color: ">Login</h3>
+
+<br>
+  <div class="row">
+      <div class="col-lg-2"></div>
+    <div class="col-lg-4">
+         <label for="email">Email</label>
+    <input class="form-control" type="text" placeholder="email" [(ngModel)]="email">
+    </div>
+    <div class="col-lg-4">
+      <label for="password">Password</label>
+      <input type="password" placeholder="password" [(ngModel)]="password" class="form-control"/>
+    </div>
+    <div>
+      <button class="btn btn-success"  type="submit" (click)="Login()">Login</button>
+    </div>
+    </div>
+
